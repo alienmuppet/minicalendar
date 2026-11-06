@@ -1,15 +1,26 @@
-# mini-calendar Project Brief
+# MiniCalendar project brief
 
-I am planning a new project internally called mini-calendar.
+Clarified 6 November 2026. The maintained requirements and proposal are in the
+[research brief](docs/research-brief.md) and [product plan](docs/product-plan.md).
 
-## Technical Direction
+## Product direction
 
-- The project should follow the same general architecture as minifast.
-- It will use the existing httpapi server.
-- It will have:
-  - a Svelte web app,
-  - an iOS app,
-  - an Android app.
-- The first implementation can focus on the database and web/API surface.
-- Database components should be adapted from minifast where appropriate, especially account/auth/person-style multi-tenancy patterns.
-- Manual entry is the MVP for readings. Sensor/device integration should be allowed for in the model but not implemented initially.
+- A personal calendar with optional sharing among friends and small groups.
+- People can share availability and respond to proposed times, then confirm
+  plans together. Social plans, band rehearsals, and gigs are example workflows.
+- Connecting as friends grants no calendar access. Each person explicitly
+  chooses who can see availability or event details.
+- Research connections to existing external calendars now, with implementation
+  in a later phase. Manual event and availability entry is the initial proposal.
+
+## Technical direction
+
+- Follow the general architecture of MiniFast and MiniHACCP using the existing
+  `http_api` server and server-held application data.
+- Build the database/API and responsive Svelte web experience first, followed by
+  dedicated iOS and Android apps.
+- Adopt the current shared authentication contract and assess the existing apps'
+  account, membership, invitation, and concurrency patterns for adaptation.
+  Calendar-specific data and business rules belong in MiniCalendar.
+- Establish the research and planning documents before implementing application
+  code, schemas, or deployment configuration.

@@ -1,0 +1,1079 @@
+{
+  "date": "2026-11-06",
+  "method": "Headless Chromium file preview; all HTTP(S) requests blocked and recorded; internal table scrolling allowed",
+  "status": "PASS",
+  "provenance": {
+    "startedAtUtc": "2026-11-06T11:17:59.965Z",
+    "finishedAtUtc": "2026-11-06T11:18:14.063Z",
+    "sourcePath": "../index.html",
+    "sourceSha256": "d97e680b9443ff8d322e88d4440a595c0ed11f1705d567494f4b3033a7201220",
+    "sourceAfterSha256": "d97e680b9443ff8d322e88d4440a595c0ed11f1705d567494f4b3033a7201220",
+    "sourceBytes": 68476,
+    "browserVersion": "147.0.7727.15",
+    "reviewScript": "/tmp/minicalendar-preview-review.mjs",
+    "reviewScriptSha256": "c6e73c6b6c309a067557d7df985e4449289986043a29e29d9eb5e9e7a0031697",
+    "captureHashes": [
+      {
+        "name": "week-desktop.png",
+        "sha256": "67331f1cc74bcbb9876285e4677443d4ad7c5d0cdd27d67d200d0b5ca03548c1",
+        "bytes": 124394,
+        "captureSha256BeforeMetadata": "ca8f33c725bba6f0486aaa2ce50892436a7f880b45f444687285174372f10095"
+      },
+      {
+        "name": "week-mobile.png",
+        "sha256": "b3138429b7880641ae2401f3fe0763e50cadc450050d6039dc55348b82e59497",
+        "bytes": 58302,
+        "captureSha256BeforeMetadata": "bd560086ec3a4c827d943da2776387cfd3e673b78c7bd9910d0d420fb38791b1"
+      },
+      {
+        "name": "agenda-desktop.png",
+        "sha256": "e1eae299bae7d5ae1064dea66d9f8275cb38d6e1bfdee0625f13662ce68f70c7",
+        "bytes": 116590,
+        "captureSha256BeforeMetadata": "bbf3c5155875e0b1c36f83b16363237885d4f3a57b846ca5e21f2d90a0b5ec05"
+      },
+      {
+        "name": "agenda-mobile.png",
+        "sha256": "7148256932ab05064d6bbd742ad8912e2c1ee82bf7404b8d1baf19ebf79188d9",
+        "bytes": 80175,
+        "captureSha256BeforeMetadata": "944557c961dc30403c97d1ed2aa5c8717a4fca394b3bf2573429407dcfaeff22"
+      },
+      {
+        "name": "planner-desktop.png",
+        "sha256": "ff1aaa90593172261e202dc8fc2337f2b439dcaa60686b5f1ebb1d390546c804",
+        "bytes": 151562,
+        "captureSha256BeforeMetadata": "8af6a863d6154c563fd04c93ecce2adef4eacf3d8699a7f4b901389565c479d6"
+      },
+      {
+        "name": "planner-mobile.png",
+        "sha256": "ed25e0e3784a4d837fc32bc5b2aa8ac2fd33fcbfa71a174a9fdd9820e63ac4f6",
+        "bytes": 82368,
+        "captureSha256BeforeMetadata": "b5a4862645536a1abfc3d43712226927e257b9805d98ae7b8db52ebec8806946"
+      },
+      {
+        "name": "plan-desktop.png",
+        "sha256": "8e398b7af18bd293f7e0a4edf7668ea159cd7a272eb11ce4cec0a4d197102b24",
+        "bytes": 138130,
+        "captureSha256BeforeMetadata": "d07cbcb96685b26b8b450b0b361dbde3fd96732cd9416a47900745abbe968641"
+      },
+      {
+        "name": "plan-mobile.png",
+        "sha256": "00f4de6388891cf288b680b83f495372801672d3ecc0418a5dc7b0e3e1f9dc3b",
+        "bytes": 113293,
+        "captureSha256BeforeMetadata": "be4abe4b77b0028ecfadb40708362c3a9e41bf1d12e73dabbaad5d420317ce22"
+      },
+      {
+        "name": "people-desktop.png",
+        "sha256": "1df783a8b939505589f156deacf6e2801e28ca0e99d4e3972328302bc014ffbc",
+        "bytes": 123827,
+        "captureSha256BeforeMetadata": "6f943d8627ce6d8ac75577335cf6716838188f0fb7863f8a6653fcc821873d27"
+      },
+      {
+        "name": "people-mobile.png",
+        "sha256": "92295cadc466ba620d72016d9ebe1a1b8e92e64f4c0f616597d01b454a75b356",
+        "bytes": 88560,
+        "captureSha256BeforeMetadata": "c4aa34967d542669d328b98da7ada7e467ed307dabc989843863a58907e5371f"
+      },
+      {
+        "name": "group-desktop.png",
+        "sha256": "28f5d6cbf5a9c65ca4e488ce63ff9e9f4d7721493e16a6390e45731a47b5f867",
+        "bytes": 121957,
+        "captureSha256BeforeMetadata": "53101e8b1aed3d2a24ef137d3e731ed48ed8b5853767130eab6ad2a9f21f353e"
+      },
+      {
+        "name": "group-mobile.png",
+        "sha256": "2c4344f56fdbe93c02936531ed265f28431b72ad1f9058dc36047bc3d3cbc7b3",
+        "bytes": 91631,
+        "captureSha256BeforeMetadata": "d50de1c086d8aa78d693b2190de6b745d0730ac890163569bf0f3e2948aa3b00"
+      },
+      {
+        "name": "people-narrow.png",
+        "sha256": "567977b4ef8f31e0fc1d4a210128914d729afa554ab7455ab27cb2f8c29207e8",
+        "bytes": 89196,
+        "captureSha256BeforeMetadata": "f0a06dd4533991004a35aa4f75c14d043018f8c769589d325409fb919e0ecd44"
+      },
+      {
+        "name": "event-form-mobile.png",
+        "sha256": "cfef93dab58e48e65826556376f848847df433e58373fa7994ab3c1e8d019e1a",
+        "bytes": 115245,
+        "captureSha256BeforeMetadata": "ecbf5a7a61d1aca01a3493a0aa6e192f0f72ab8f67b9fde4d3f1472c962e24e1"
+      },
+      {
+        "name": "plan-confirmed-desktop.png",
+        "sha256": "b056a371ddf500ce1e9abe1f383d79938eefef2f38a071e5ccf58161546ad823",
+        "bytes": 117381,
+        "captureSha256BeforeMetadata": "aadf5477089dd208e19769deaeb3c21c917e66c6329bced48f212a2d52ccb2f7"
+      },
+      {
+        "name": "plan-confirmed-mobile.png",
+        "sha256": "738144841acbd92bb2b7d1857fc18603620ca2e030c3f7660fb86fb561e15fb8",
+        "bytes": 87804,
+        "captureSha256BeforeMetadata": "6c4ab4cf04dad9510e980058097dd2a1d054e25151e1702925ba3f8ed2f3e13d"
+      }
+    ],
+    "embeddedOrigin": "Each PNG embeds its capture origin; capture hashes above include metadata. Original capture hashes are retained separately."
+  },
+  "viewports": [
+    {
+      "variant": "week",
+      "view": "calendar",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "calendar",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "calendar",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "calendar",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "calendar",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "calendar",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "plan",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "plan",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "people",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "people",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "group",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "group",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "calendar",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "calendar",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "calendar",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "calendar",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "calendar",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "plan",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "plan",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "plan",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "plan",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "plan",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "people",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "people",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "people",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "people",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "people",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "group",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "group",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "group",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "group",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "week",
+      "view": "group",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "calendar",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "calendar",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "calendar",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "calendar",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "calendar",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "plan",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "plan",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "plan",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "plan",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "plan",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "people",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "people",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "people",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "people",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "people",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "group",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "group",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "group",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "group",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "agenda",
+      "view": "group",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "calendar",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "calendar",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "calendar",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "calendar",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "calendar",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "plan",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "plan",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "plan",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "plan",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "plan",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "people",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "people",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "people",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "people",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "people",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "group",
+      "width": 320,
+      "height": 844,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "group",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "group",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "group",
+      "width": 1024,
+      "height": 1000,
+      "viewport": 1024,
+      "document": 1024,
+      "body": 1024,
+      "overflow": false
+    },
+    {
+      "variant": "planner",
+      "view": "group",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "overflow": false
+    }
+  ],
+  "layoutChecks": [
+    {
+      "variant": "week",
+      "view": "people",
+      "width": 320,
+      "rows": [
+        {
+          "name": "Maya Chen",
+          "action": {
+            "left": 54,
+            "right": 205.578125,
+            "top": 409,
+            "bottom": 441
+          },
+          "select": {
+            "left": 54,
+            "right": 284,
+            "top": 473,
+            "bottom": 513
+          },
+          "overlaps": false
+        },
+        {
+          "name": "Jamie Patel",
+          "action": {
+            "left": 54,
+            "right": 205.578125,
+            "top": 586,
+            "bottom": 618
+          },
+          "select": {
+            "left": 54,
+            "right": 284,
+            "top": 650,
+            "bottom": 690
+          },
+          "overlaps": false
+        },
+        {
+          "name": "Sam Ellis",
+          "action": {
+            "left": 54,
+            "right": 205.578125,
+            "top": 763,
+            "bottom": 795
+          },
+          "select": {
+            "left": 54,
+            "right": 284,
+            "top": 827,
+            "bottom": 867
+          },
+          "overlaps": false
+        }
+      ]
+    },
+    {
+      "variant": "agenda",
+      "view": "people",
+      "width": 320,
+      "rows": [
+        {
+          "name": "Maya Chen",
+          "action": {
+            "left": 54,
+            "right": 205.578125,
+            "top": 409,
+            "bottom": 441
+          },
+          "select": {
+            "left": 54,
+            "right": 284,
+            "top": 473,
+            "bottom": 513
+          },
+          "overlaps": false
+        },
+        {
+          "name": "Jamie Patel",
+          "action": {
+            "left": 54,
+            "right": 205.578125,
+            "top": 586,
+            "bottom": 618
+          },
+          "select": {
+            "left": 54,
+            "right": 284,
+            "top": 650,
+            "bottom": 690
+          },
+          "overlaps": false
+        },
+        {
+          "name": "Sam Ellis",
+          "action": {
+            "left": 54,
+            "right": 205.578125,
+            "top": 763,
+            "bottom": 795
+          },
+          "select": {
+            "left": 54,
+            "right": 284,
+            "top": 827,
+            "bottom": 867
+          },
+          "overlaps": false
+        }
+      ]
+    },
+    {
+      "variant": "planner",
+      "view": "people",
+      "width": 320,
+      "rows": [
+        {
+          "name": "Maya Chen",
+          "action": {
+            "left": 54,
+            "right": 205.578125,
+            "top": 409,
+            "bottom": 441
+          },
+          "select": {
+            "left": 54,
+            "right": 284,
+            "top": 473,
+            "bottom": 513
+          },
+          "overlaps": false
+        },
+        {
+          "name": "Jamie Patel",
+          "action": {
+            "left": 54,
+            "right": 205.578125,
+            "top": 586,
+            "bottom": 618
+          },
+          "select": {
+            "left": 54,
+            "right": 284,
+            "top": 650,
+            "bottom": 690
+          },
+          "overlaps": false
+        },
+        {
+          "name": "Sam Ellis",
+          "action": {
+            "left": 54,
+            "right": 205.578125,
+            "top": 763,
+            "bottom": 795
+          },
+          "select": {
+            "left": 54,
+            "right": 284,
+            "top": 827,
+            "bottom": 867
+          },
+          "overlaps": false
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "name": "At 320px friend access actions and sharing controls do not overlap in any layout",
+      "status": "PASS"
+    },
+    {
+      "name": "URL layout, hash navigation and keyboard isolation",
+      "status": "PASS"
+    },
+    {
+      "name": "Event details, close and RSVP",
+      "status": "PASS"
+    },
+    {
+      "name": "Add event validates end time and safely displays entered text",
+      "status": "PASS"
+    },
+    {
+      "name": "Friend search and empty state",
+      "status": "PASS"
+    },
+    {
+      "name": "Sharing Nothing, Availability, Event details and Stop sharing",
+      "status": "PASS"
+    },
+    {
+      "name": "Accepting Erin grants no implicit calendar access",
+      "status": "PASS"
+    },
+    {
+      "name": "Poll reply, confirmation, calendar event and reopening",
+      "status": "PASS"
+    },
+    {
+      "name": "Own availability cycles and does not edit friends",
+      "status": "PASS"
+    },
+    {
+      "name": "Availability keyboard activation restores focus on desktop and mobile",
+      "status": "PASS"
+    },
+    {
+      "name": "Keyboard confirmation and reopening move focus to usable controls",
+      "status": "PASS"
+    },
+    {
+      "name": "Mobile poll preserves focus and opens the chosen event",
+      "status": "PASS"
+    },
+    {
+      "name": "Adding a candidate time starts unanswered and reload resets it",
+      "status": "PASS"
+    }
+  ],
+  "captures": [
+    "week-desktop.png",
+    "week-mobile.png",
+    "agenda-desktop.png",
+    "agenda-mobile.png",
+    "planner-desktop.png",
+    "planner-mobile.png",
+    "plan-desktop.png",
+    "plan-mobile.png",
+    "people-desktop.png",
+    "people-mobile.png",
+    "group-desktop.png",
+    "group-mobile.png",
+    "people-narrow.png",
+    "event-form-mobile.png",
+    "plan-confirmed-desktop.png",
+    "plan-confirmed-mobile.png"
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "failures": []
+}

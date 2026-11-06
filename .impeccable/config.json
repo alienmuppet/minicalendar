@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "docs/mockups/index.html"
+        ],
+        "createdAt": "2026-11-06T11:12:03.886Z",
+        "reason": "Agent reviewed: these lines rule the actual hourly calendar columns; they encode the schedule time axis, not decorative surface stripes."
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T11:19:19Z",
+  "title": "Design System: MiniCalendar exploratory mockups (preview-local; unselected)",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "dialog-and-toast",
+        "value": "0 16px 50px #00000026",
+        "purpose": "Elevated event dialog and temporary feedback; normal working surfaces stay flat."
+      },
+      {
+        "name": "comparison-switcher",
+        "value": "0 7px 24px #00000033",
+        "purpose": "Fixed layout comparison tooling only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "toast-opacity",
+        "value": "opacity 160ms ease-out",
+        "purpose": "Temporary feedback fade; disabled by prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1200px"
+      },
+      {
+        "name": "stack-max",
+        "value": "900px"
+      },
+      {
+        "name": "phone-max",
+        "value": "600px"
+      },
+      {
+        "name": "narrow-phone-max",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Blue primary action captured from the preview; uses the shared minimum height and focus outline.",
+      "html": "<button class=\"ds-primary\">New event</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:39px;padding:8px 14px;border:1px solid var(--line,#dce2eb);border-radius:8px;font:550 14px/1.5 var(--font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);white-space:nowrap;cursor:pointer;background:var(--blue,#3156a8);color:var(--white,#fff);border-color:var(--blue,#3156a8);}.ds-primary:hover{background:var(--blue-deep,#203c79);}.ds-primary:focus-visible{outline:3px solid #6186ce;outline-offset:3px;}.ds-primary:disabled{cursor:not-allowed;opacity:.55;}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White bordered action, used for secondary choices and date navigation.",
+      "html": "<button class=\"ds-secondary\">Compare times</button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:39px;padding:8px 14px;border:1px solid var(--line,#dce2eb);border-radius:8px;font:550 14px/1.5 var(--font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);white-space:nowrap;cursor:pointer;background:var(--white,#fff);color:var(--ink,#202c40);}.ds-secondary:hover{background:var(--ground,#f6f8fb);border-color:#aab8cd;}.ds-secondary:focus-visible{outline:3px solid #6186ce;outline-offset:3px;}.ds-secondary:disabled{cursor:not-allowed;opacity:.55;}"
+    },
+    {
+      "name": "Quiet button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Transparent low-emphasis action with a pale-blue hover treatment.",
+      "html": "<button class=\"ds-quiet\">Manage sharing</button>",
+      "css": ".ds-quiet{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:39px;padding:8px 14px;border:1px solid var(--line,#dce2eb);border-radius:8px;font:550 14px/1.5 var(--font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);white-space:nowrap;cursor:pointer;background:transparent;color:var(--ink,#202c40);border-color:transparent;}.ds-quiet:hover{background:var(--blue-soft,#e9effb);border-color:#aab8cd;}.ds-quiet:focus-visible{outline:3px solid #6186ce;outline-offset:3px;}.ds-quiet:disabled{cursor:not-allowed;opacity:.55;}"
+    },
+    {
+      "name": "Labelled event field",
+      "kind": "input",
+      "refersTo": "field-text",
+      "description": "Visible label and native text input; fields inherit the compact label typography.",
+      "html": "<label class=\"ds-field\">Event name<input class=\"ds-input\" type=\"text\" placeholder=\"What are you planning?\"></label>",
+      "css": ".ds-field{display:grid;gap:5px;font:550 12px/1.5 var(--font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);color:var(--ink,#202c40);}.ds-input{width:100%;padding:10px 11px;border-radius:7px;border:1px solid #bdc8d8;background:var(--white,#fff);min-height:40px;color:var(--ink,#202c40);font:inherit;caret-color:var(--blue,#3156a8);}.ds-input::placeholder{color:#68758b;}.ds-input:focus-visible{outline:3px solid #6186ce;outline-offset:3px;}"
+    },
+    {
+      "name": "Navigation item",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Desktop rail navigation with active and hover styles. Inline SVG is included; no icon package is needed.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Sample calendar navigation\"><button class=\"ds-nav-item ds-active\" aria-current=\"page\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M16 3v4M8 3v4M3 11h18\"/></svg>Calendar</button><button class=\"ds-nav-item\">Find a time<span class=\"ds-count\">1</span></button></nav>",
+      "css": ".ds-nav{display:flex;flex-direction:column;gap:6px;padding:18px;background:#edf1f8;}.ds-nav-item{display:flex;align-items:center;gap:11px;border:0;border-radius:8px;background:transparent;text-align:left;padding:11px 12px;width:100%;color:#4c5e7a;font:13px/1.5 var(--font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);cursor:pointer;}.ds-nav-item.ds-active{background:#dce6f8;color:#23437d;font-weight:650;}.ds-nav-item:hover{background:#e0e8f5;}.ds-nav-item:focus-visible{outline:3px solid #6186ce;outline-offset:3px;}.ds-count{margin-left:auto;border-radius:5px;background:var(--white,#fff);padding:0 5px;font-size:11px;}.ds-icon{width:19px;height:19px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;}"
+    },
+    {
+      "name": "Response chips",
+      "kind": "chip",
+      "refersTo": "chip-green",
+      "description": "Static text states use colour plus words. They intentionally have no invented hover or pressed behaviour.",
+      "html": "<span class=\"ds-chip ds-green\">Yes</span> <span class=\"ds-chip ds-amber\">Maybe</span> <span class=\"ds-chip ds-neutral\">No reply</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:5px;border-radius:5px;padding:3px 7px;font:600 11px/1.5 var(--font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);white-space:nowrap;}.ds-green{background:var(--green-soft,#e6f2e9);color:var(--green,#23614c);}.ds-amber{background:var(--amber-soft,#faf0db);color:var(--amber,#805318);}.ds-neutral{background:#eff1f5;color:var(--muted,#59677b);}"
+    },
+    {
+      "name": "Privacy preview",
+      "kind": "card",
+      "refersTo": "privacy-panel",
+      "description": "Flat pale surface showing what a selected friend can see. Fictional content illustrates availability-only access.",
+      "html": "<aside class=\"ds-privacy\"><h2>What Sam can see</h2><p>A preview of your personal calendar.</p><div class=\"ds-preview-event\"><strong>Busy</strong>Fri 6 Nov · 10:00–11:30</div><p class=\"ds-permission\">Event names, locations and other details are hidden.</p></aside>",
+      "css": ".ds-privacy{background:#f1f4fa;border-radius:12px;padding:23px;color:var(--ink,#202c40);font:14px/1.5 var(--font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);}.ds-privacy h2{margin:0;font-size:17px;line-height:1.35;letter-spacing:-.015em;}.ds-privacy p{font-size:12px;color:var(--muted,#59677b);margin:8px 0 18px;max-width:70ch;}.ds-preview-event{background:var(--white,#fff);padding:12px;border-radius:8px;margin:10px 0;color:var(--muted,#59677b);font-size:12px;}.ds-preview-event strong{display:block;color:var(--ink,#202c40);font-size:13px;margin-bottom:2px;}.ds-privacy .ds-permission{color:#3e567f;margin-top:20px;}"
+    },
+    {
+      "name": "Calendar event",
+      "kind": "custom",
+      "refersTo": "calendar-event",
+      "description": "Group event styling shown in an illustrative fixed-height stage; production-in-preview positions come from sample times. Opens detail only in the full mockup.",
+      "html": "<div class=\"ds-event-stage\"><button class=\"ds-event\" aria-label=\"Rehearsal, 19:00, Going\"><span class=\"ds-event-time\">19:00</span><strong>Rehearsal</strong><span class=\"ds-event-status\">Going</span></button></div>",
+      "css": ".ds-event-stage{position:relative;min-height:90px;}.ds-event{position:absolute;top:0;left:4px;right:4px;height:75px;min-height:35px;border:0;border-radius:6px;padding:4px 6px;text-align:left;background:var(--purple-soft,#f0eafa);color:var(--purple,#66439b);overflow:hidden;font:14px/1.2 var(--font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);cursor:pointer;}.ds-event:hover{filter:brightness(.97);outline:1px solid currentColor;}.ds-event:focus-visible{outline:3px solid #6186ce;outline-offset:3px;}.ds-event-time{font-size:9px;line-height:1.1;font-variant-numeric:tabular-nums;white-space:nowrap;}.ds-event strong{display:block;font-size:11px;line-height:1.15;font-weight:600;margin:2px 0;}.ds-event-status{font-size:9px;}"
+    },
+    {
+      "name": "Availability cells",
+      "kind": "custom",
+      "refersTo": "availability-available",
+      "description": "The user's interactive sample row has filled available/busy cells and dashed unknown/not-shared cells. Snippet states are visual, without the mockup's cycling handler.",
+      "html": "<table class=\"ds-availability\"><caption>Your shared evenings</caption><tbody><tr><td class=\"ds-available\"><button aria-label=\"Tuesday: available\">Available</button></td><td class=\"ds-busy\"><button aria-label=\"Wednesday: busy\">Busy</button></td><td class=\"ds-unknown\"><button aria-label=\"Thursday: not shared\">Not shared</button></td></tr></tbody></table>",
+      "css": ".ds-availability{border-collapse:separate;border-spacing:5px;width:100%;font:11px/1.5 var(--font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);}.ds-availability caption{text-align:left;color:var(--muted,#59677b);padding:0 5px 7px;}.ds-availability td{height:53px;text-align:center;border-radius:6px;}.ds-availability .ds-available{background:var(--green-soft,#e6f2e9);color:var(--green,#23614c);}.ds-availability .ds-busy{background:#e8ecf4;color:#4b5e80;}.ds-availability .ds-unknown{background:var(--white,#fff);border:1px dashed #cbd2dd;color:var(--muted,#59677b);}.ds-availability button{width:100%;height:100%;border:0;color:inherit;background:transparent;border-radius:6px;font:11px/1.5 var(--font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);cursor:pointer;}.ds-availability button:hover{outline:1px solid currentColor;}.ds-availability button:focus-visible{outline:3px solid #6186ce;outline-offset:3px;}"
+    }
+  ],
+  "narrative": {
+    "overview": "This is a **preview-local implementation record**, extracted from [index.html](index.html) on 6 November 2026 and checked against the saved week desktop screenshot. Frontmatter tokens describe this prototype only; the HTML remains the implemented source. No winning layout, production palette, public brand, logo or native-client design has been selected.\n\nThe current surface uses a cool pale navigation shell, white working space, blue actions, lilac group events and ochre friend events. Compact system type, date anchors and thin rules make dense schedules readable. Week, Agenda and Planner are alternative structures with shared sample data and vocabulary. Their provisional direction is recorded in the [surface brief](../../.impeccable/surfaces/docs-mockups-index-html.md); durable product constraints remain in [PRODUCT.md](../../PRODUCT.md).",
+    "keyCharacteristics": [
+      "Three unselected layouts for the same personal and shared planning product.",
+      "Date-led working surfaces, thin dividers and compact system typography.",
+      "Colour identifies context alongside explicit words for availability and state.",
+      "Self-contained HTML, CSS and inline SVG with fictional, in-memory data."
+    ],
+    "rules": [],
+    "dos": [
+      "Do use this capture to reproduce and compare the current prototype locally.",
+      "Do preserve labelled availability, privacy and attendance states alongside colour.",
+      "Do retain visible focus, readable phone alternatives and the fictional-data notice.",
+      "Do consult the HTML and surface brief when a component or layout changes."
+    ],
+    "donts": [
+      "Don't treat these tokens or any of the three layouts as an approved production identity.",
+      "Don't turn an empty calendar into declared availability or a candidate reply into attendance.",
+      "Don't promote the comparison switcher or sample group into the production feature set.",
+      "Don't invent new fonts, imagery, colour ramps or interaction states from this capture."
+    ]
+  }
+}
